@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "/dist",
+  "rewrites": [
+    {
+      "source": "/api/:path(.*)",
+      "destination": "https://93.188.85.234:4443/api/:path"
+    },
+    {
+      "source": "/uploads/:path(.*)",
+      "destination": "https://93.188.85.234:4443/uploads/:path"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}

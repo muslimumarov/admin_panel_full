@@ -1,0 +1,6 @@
+export enum ServicesCategory {
+  IT_SERVICES = "IT_SERVICES",
+  CERTIFICATION_SERVICES = "CERTIFICATION_SERVICES",
+  // INSPECTION_SERVICES = "Tekshirish xizmatlar",
+  OTHER_SERVICES = " OTHER_SERVICES",
+}
